@@ -31,6 +31,29 @@ A Simple Shell Script to Get New Member Registration Notification from your Ghos
 - Click `Add Custom integration` to Create New Ghost Custom integration
 - Goto webhooks Column & Create New Webhook - Give Name for your Webhook - Choose a Event `Member added` - in Target URL add your Netlify webhook URL (How to Get Netlify webhook URL? Goto Settings > Build & Deploy > Build hooks)
 
+## Development 🛠
+
+```bash
+
+git clone https://github.com/mskian/new-members.git
+
+## Install
+yarn dependencies
+
+## Test Notifications (Create .env file for API Keys and variables)
+touch .env
+
+## Add this on .env file
+BOT_API=https://api.telegram.org/bot<YOUR BOT API KEY>/sendMessage
+CHAT_ID=<Channel ID or CHAT ID>
+GOTIFY_URL=https://push.example.com/message?token=XXXXXXXXXXXXXXX
+SITE_DOMAIN=example.com
+
+## Test
+yarn start -s example.com
+
+```
+
 ## LICENSE 📜
 
 MIT
