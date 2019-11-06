@@ -1,0 +1,30 @@
+{
+	"name": "new-members",
+	"version": "0.0.1",
+	"description": "A Simple Script to Get New Member Registration Notification from your Ghost.",
+	"main": "notification.js",
+	"scripts": {
+		"start": "node notification.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mskian/new-members.git"
+	},
+	"keywords": [
+		"telegram",
+        "gotify",
+        "ghost",
+        "notification"
+	],
+	"author": "Santhosh Veer",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/mskian/new-members/issues"
+	},
+	"homepage": "https://github.com/mskian/new-members/#readme",
+	"dependencies": {
+		"axios": "0.19.0",
+		"commander": "4.0.0",
+		"dotenv": "8.2.0"
+	}
+}
