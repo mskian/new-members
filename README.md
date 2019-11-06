@@ -15,7 +15,7 @@ A Simple Shell Script to Get New Member Registration Notification from your Ghos
 
 - Click the above button to Connect this script to your Netlify Account
 - Next it will automatically Create a Respo on your Github or Gitlab Account
-- Configure it -> in `build Command` add this `bash members.sh` Next Choose Advanced Settings and Add ENV variables yes add your Telegram BOT API Key, Chat ID and Site Name  - Key Values 👇
+- Configure it -> in `build Command` add this `chmod a+x ./members.sh && ./members.sh` Next Choose Advanced Settings and Add ENV variables yes add your Telegram BOT API Key, Chat ID and Site Name  - Key Values 👇
 
 | key | Value |
 | ----------- | ----------- |
