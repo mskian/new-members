@@ -88,5 +88,5 @@ if (program.site) {
     gotifyMessage('New Memeber Registered on your Site \t' + sitename);
     sendMessage('New Memeber Registered on your Site \t' + sitename);
 } else {
-    console.log('Please Enter a Valid Option For More Info Run: checkssl -h');
+    console.log('Please Enter a Valid Option');
 }
