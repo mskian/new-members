@@ -8,7 +8,7 @@ A Simple Shell Script to Get New Member Registration Notification from your Ghos
 
 - Hosted at Netlify ☂
 - Attach Netlify webhook on your Ghost Custom integration with `Member added` Event
-- Telegram Bot 🤖 API and Gotify API Key for sending the Notificaiton Alerts
+- Telegram Bot 🤖 API and Gotify API Key for sending the Notification Alerts
 - Netlify Environment variables for Store the Sensitive Data's like API Key's and Extra Variables
 
 ## Setup 🔧
