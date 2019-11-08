@@ -24,6 +24,8 @@ A Simple Shell Script to Get New Member Registration Notification from your Ghos
 - Next it will automatically Create a Respo on your Github or Gitlab Account
 - Configure it -> in `build Command` add this `chmod a+x ./members.sh && ./members.sh` Next Choose the Advanced Settings and Add ENV variables yes add your Telegram BOT API Key, Chat ID, Gotify API Key and Site domain  - Key Values 👇
 
+**you can use anyone of the Notification service - Telegram or Gotify**
+
 | key | Value |
 | ----------- | ----------- |
 | BOT_API | `https://api.telegram.org/bot<YOUR BOT API KEY>/sendMessage` |
