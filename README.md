@@ -1,21 +1,28 @@
 # Members Notification 🔔
 
-A Simple Shell Script to Get New Member Registration Notification from your Ghost site via Telegram Bot 🤖 and Gotify Push Notification Server.
+A Simple Shell Script to Get New Member Registration Notification from your Ghost site via Telegram Bot 🤖 and Gotify Push Notification Server.  
 
-[![deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mskian/new-members)
+[![deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mskian/new-members)  
+
+## Requirements 🛍
+
+- Telegram Bot API Key and Chat ID
+- Gotify API Key - <https://github.com/gotify>
+- Netlify Account for Host this Script
+- Netlify Webhooks for Trigger the Update from Ghost Dashboard
 
 ## Usage 📦
 
 - Hosted at Netlify ☂
 - Attach Netlify webhook on your Ghost Custom integration with `Member added` Event
 - Telegram Bot 🤖 API and Gotify API Key for sending the Notification Alerts
-- Netlify Environment variables for Store the Sensitive Data's like API Key's and Extra Variables
+- Netlify Environment variables for Store the Sensitive Data's like API Key and Extra Variables
 
 ## Setup 🔧
 
 - Click the above button to Connect this script to your Netlify Account
 - Next it will automatically Create a Respo on your Github or Gitlab Account
-- Configure it -> in `build Command` add this `chmod a+x ./members.sh && ./members.sh` Next Choose Advanced Settings and Add ENV variables yes add your Telegram BOT API Key, Chat ID and Site domain  - Key Values 👇
+- Configure it -> in `build Command` add this `chmod a+x ./members.sh && ./members.sh` Next Choose the Advanced Settings and Add ENV variables yes add your Telegram BOT API Key, Chat ID, Gotify API Key and Site domain  - Key Values 👇
 
 | key | Value |
 | ----------- | ----------- |
@@ -29,7 +36,9 @@ A Simple Shell Script to Get New Member Registration Notification from your Ghos
 - log on to your Ghost Admin Dashboard
 - Goto Integrations
 - Click `Add Custom integration` to Create New Ghost Custom integration
-- Goto webhooks Column & Create New Webhook - Give Name for your Webhook - Choose a Event `Member added` - in Target URL add your Netlify webhook URL (How to Get Netlify webhook URL? Goto Settings > Build & Deploy > Build hooks)
+- Goto webhooks Column & Create a New Webhook - Give Name for your Webhook - Choose a Event `Member added` - in Target URL add your Netlify webhook URL (How to Get Netlify webhook URL? Goto Settings > Build & Deploy > Build hooks)
+- Save the Settings - That's all Successfully setup the Script for Alerts
+- Once the Member was Successfully Registered you will get the Notification alert on Telegram & Gotify
 
 ## Development 🛠
 
