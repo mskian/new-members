@@ -12,9 +12,9 @@
 	},
 	"keywords": [
 		"telegram",
-        "gotify",
-        "ghost",
-        "notification"
+		"gotify",
+		"ghost",
+		"notification"
 	],
 	"author": "Santhosh Veer",
 	"license": "MIT",
@@ -23,7 +23,7 @@
 	},
 	"homepage": "https://github.com/mskian/new-members/#readme",
 	"dependencies": {
-		"axios": "0.19.1",
+		"axios": "0.19.2",
 		"commander": "4.1.0",
 		"dotenv": "8.2.0"
 	}
