@@ -23,8 +23,8 @@
 	},
 	"homepage": "https://github.com/mskian/new-members/#readme",
 	"dependencies": {
-		"axios": "0.21.0",
-		"commander": "6.2.0",
+		"axios": "0.21.1",
+		"commander": "6.2.1",
 		"dotenv": "8.2.0"
 	}
 }
