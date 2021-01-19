@@ -83,8 +83,10 @@ function gotifyMessage(hello) {
 // gotifyMessage - Gotify                                              //
 /////////////////////////////////////////////////////////////////////////
 
-if (program.site) {
-    var sitename = program.site;
+const options = program.opts();
+
+if (options.site) {
+    var sitename = options.site;
     gotifyMessage('New Memeber Registered on your Site \t' + sitename);
     sendMessage('New Memeber Registered on your Site \t' + sitename);
 } else {
